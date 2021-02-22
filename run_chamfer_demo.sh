@@ -3,4 +3,4 @@ mkdir build
 cd build
 cmake ..
 make
-./chamfer_distance --fileCloud1 "../muffler_2.ply" --fileCloud2 "../muffler_2.ply"
+./chamfer_distance --fileCloud1 <path_to_first_file> --fileCloud2 <path_to_second_file> 
